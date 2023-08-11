@@ -19,6 +19,9 @@ public class SearchController
 	{
 		//String data = null;  //manually passing NullPointerException
 		//data.length();
+		
+		//Integer.parseInt(searching);   //manually passing NumberFormatException
+		
 		RedirectView redirectView = new RedirectView();
 		if(searching.isBlank())
 		{
